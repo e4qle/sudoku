@@ -1,1 +1,1 @@
-ściągasz wszystko do jednego foldera, otwierasz plik .vxcproj i możesz kompilować w visual studio
+ściągasz wszystko do jednego foldera, otwierasz plik .vcxproj i możesz kompilować w visual studio
