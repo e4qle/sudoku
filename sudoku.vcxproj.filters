@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki źródłowe\3x3">
+      <UniqueIdentifier>{ab6254d6-e53f-4f3d-9eab-65e087938bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\9x9">
+      <UniqueIdentifier>{cad1125c-1054-4d6f-a4f5-aacb6c83aa4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\3x3\v1">
+      <UniqueIdentifier>{af0aec1f-9343-4b38-9e29-586470e7035d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\3x3\v2">
+      <UniqueIdentifier>{90bfeff6-acd0-4b66-ac22-5fdb34dc76a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="9x9main.cpp">
+      <Filter>Pliki źródłowe\9x9</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="rozwiąż 9x9.cpp">
+      <Filter>Pliki źródłowe\9x9</Filter>
+    </ClCompile>
+    <ClCompile Include="zaprojektuj 9x9.cpp">
+      <Filter>Pliki źródłowe\9x9</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>Pliki źródłowe\9x9</Filter>
+    </ClCompile>
+    <ClCompile Include="3x3 v2 main.cpp">
+      <Filter>Pliki źródłowe\3x3\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="3x3 v2 rozwiąż.cpp">
+      <Filter>Pliki źródłowe\3x3\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="3x3 v2 zaprojektuj.cpp">
+      <Filter>Pliki źródłowe\3x3\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="3x3 v1 %28nieużyte%29.cpp">
+      <Filter>Pliki źródłowe\3x3\v1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="h3x3.h">
+      <Filter>Pliki źródłowe\3x3</Filter>
+    </ClInclude>
+    <ClInclude Include="h9x9.h">
+      <Filter>Pliki źródłowe\9x9</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
